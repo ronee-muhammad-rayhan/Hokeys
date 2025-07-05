@@ -18,12 +18,12 @@
     </style>
 </head>
 
-<body class="manrope container lg:px-5 lg:px-32 bg-white w-full mx-auto border-2 border-red-300">
-    <header class="border-2 border-green-300">
-        <nav class="my-6 lg:my-14 border-2 border-blue-300">
-            <div class="flex items-center justify-start border-2 border-red-300">
-                <div class=" lg:hidden border-2 border-green-300">
-                    <div class="dropdown border-2 border-blue-300">
+<body class="manrope container lg:px-5 lg:px-32 bg-white w-full mx-auto">
+    <header>
+        <nav class="my-6 lg:my-14">
+            <div class="flex items-center justify-start">
+                <div class=" lg:hidden">
+                    <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -41,7 +41,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex flex-1 items-center justify-around lg:justify-between border-2 border-purple-300">
+                <div class="flex flex-1 items-center justify-around lg:justify-between">
                     <div>
                         <a class="font-extrabold text-2xl lg:text-4xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
                     </div>
@@ -64,12 +64,14 @@
             </div>
         </nav>
         <!-- Slider starts for large devices -->
-        <div class="carousel w-full xs:hidden xl:flex border-2 border-red-300">
-            <div id="slide1" class="carousel-item flex flex-col lg:relative w-full border-2 border-lime-300">
-                <div class="lg:w-full lg:h-4/5 relative border-2 border-red-700">
-                    <img src="Images/1.png" class="3xl:h-4/5 object-cover" />
+        <div class="carousel w-full xs:hidden xl:flex">
+            <div id="slide1" class="carousel-item flex flex-col lg:relative w-full border-2 border-blue-300">
+                <div class="lg:w-full lg:h-4/5 relative border-2 border-green-900">
+                    <div class="lg:w-full lg:h-full overflow-hidden border-2 border-red-900">
+                        <img src="Images/1.png" class="w-[100%] h-[100%] object-cover" />
+                    </div>
                     <div
-                        class="lg:absolute flex justify-center lg:justify-between transform -translate-y-1/2 lg:top-96 lg:mt-12 lg:left-8 gap-5 border-2 border-yellow-300">
+                        class="lg:absolute flex justify-center lg:justify-between transform -translate-y-1/2 lg:top-96 lg:mt-12 lg:left-8 gap-5">
                         <a href="#slide4"
                             class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
                         <a href="#slide2"

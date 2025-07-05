@@ -18,7 +18,7 @@
     </style>
 </head>
 
-<body class="manrope container px-5 lg:px-32 bg-white">
+<body class="manrope container mx-auto md:px-10 bg-white">
     <header>
         <nav class="my-6 lg:my-14">
             <div class="flex items-center justify-start">
@@ -64,53 +64,78 @@
             </div>
         </nav>
         <!-- Slider starts for large devices -->
-        <div class="carousel w-full hidden lg:flex">
-            <div id="slide1" class="carousel-item relative w-full">
-                <img src="Images/1.png" class="w-full h-4/5" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 top-96 mt-12 left-8 gap-5">
-                    <a href="#slide4" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
-                    <a href="#slide2" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
+        <div class="carousel w-full hidden lg:flex ">
+            <div id="slide1" class="carousel-item flex-col relative w-full h-auto">
+                <img src="Images/1.png" class="w-full h-[34.375rem]" />
+                <div
+                    class=" flex justify-between absolute transform -translate-y-1/2 lg:top-[32rem] lg:left-8  lg:gap-5">
+                    <a href="#slide4"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
+                    <a href="#slide2"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
                 </div>
-                <div class="w-[566px] h-40 bg-black rounded-md absolute p-8 space-y-4 top-64 left-2/4 mt-8 ml-4">
-                    <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
-                        turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <div class="flex justify-end mr-7">
+                    <div class="lg:w-[35.75rem] lg:h-40 bg-black rounded-md absolute p-8 lg:top-[23rem] w-full ">
+                        <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
+                        <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam<br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="slide2" class="carousel-item flex-col relative w-full h-auto">
+                <img src="Images/1.png" class="w-full h-[34.375rem]" />
+                <div
+                    class=" flex justify-between absolute transform -translate-y-1/2 lg:top-[32rem] lg:left-8  lg:gap-5">
+                    <a href="#slide1"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
+                    <a href="#slide3"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
+                </div>
+                <div class="flex justify-end mr-7">
+                    <div class="lg:w-[35.75rem] lg:h-40 bg-black rounded-md absolute p-8 lg:top-[23rem] w-full ">
+                        <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
+                        <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam<br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <img src="Images/1.png" class="w-full h-4/5" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 top-96 mt-12 left-8 gap-5">
-                    <a href="#slide1" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
-                    <a href="#slide3" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
+            <div id="slide3" class="carousel-item flex-col relative w-full h-auto">
+                <img src="Images/1.png" class="w-full h-[34.375rem]" />
+                <div
+                    class=" flex justify-between absolute transform -translate-y-1/2 lg:top-[32rem] lg:left-8  lg:gap-5">
+                    <a href="#slide2"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
+                    <a href="#slide4"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
                 </div>
-                <div class="w-[566px] h-40 bg-black rounded-md absolute p-8 space-y-4 top-64 left-2/4 mt-8 ml-4">
-                    <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
-                        turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <img src="Images/1.png" class="w-full h-4/5" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 top-96 mt-12 left-8 gap-5">
-                    <a href="#slide2" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
-                    <a href="#slide4" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
-                </div>
-                <div class="w-[566px] h-40 bg-black rounded-md absolute p-8 space-y-4 top-64 left-2/4 mt-8 ml-4">
-                    <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
-                        turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <div class="flex justify-end mr-7">
+                    <div class="lg:w-[35.75rem] lg:h-40 bg-black rounded-md absolute p-8 lg:top-[23rem] w-full ">
+                        <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
+                        <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam<br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
                 </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <img src="Images/1.png" class="w-full h-4/5" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 top-96 mt-12 left-8 gap-5">
-                    <a href="#slide3" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
-                    <a href="#slide1" class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
+            <div id="slide4" class="carousel-item flex-col relative w-full h-auto">
+                <img src="Images/1.png" class="w-full h-[34.375rem]" />
+                <div
+                    class=" flex justify-between absolute transform -translate-y-1/2 lg:top-[32rem] lg:left-8  lg:gap-5">
+                    <a href="#slide3"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❮</a>
+                    <a href="#slide1"
+                        class="text-white bg-black rounded-full w-10 h-10 flex justify-center items-center">❯</a>
                 </div>
-                <div class="w-[566px] h-40 bg-black rounded-md absolute p-8 space-y-4 top-64 left-2/4 mt-8 ml-4">
-                    <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
-                        turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <div class="flex justify-end mr-7">
+                    <div class="lg:w-[35.75rem] lg:h-40 bg-black rounded-md absolute p-8 lg:top-[23rem] w-full ">
+                        <h3 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h3>
+                        <p class="font-medium text-base text-white/60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam<br>
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -118,57 +143,72 @@
 
         <!-- Slider starts for medium and small devices -->
         <div class="carousel w-full flex lg:hidden">
-            <div id="slide1" class="carousel-item relative w-full">
+            <div id="slide1" class="carousel-item flex-col relative w-full h-auto">
                 <img src="Images/1.png" class="w-full h-52" />
-                <div class="absolute flex transform -translate-y-1/2 top-32 mt-12 left-40 gap-5">
-                    <a href="#slide4" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
-                    <a href="#slide2" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
+                <div
+                    class="absolute flex justify-between transform -translate-y-1/2 md:top-44 md:left-80 top-44 left-[10.94rem] gap-5">
+                    <a href="#slide4"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
+                    <a href="#slide2"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
                 </div>
-                <div class="w-[370px] h-36 bg-black rounded-md absolute p-4 space-y-2 top-48  mt-8 ml-2">
-                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
+                <div
+                    class="flex flex-col justify-center w-full h-36 bg-black rounded-md absolute p-4 space-y-2 md:top-56 top-56">
+                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field1</h3>
+                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam<br>
                         turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
+
+            <div id="slide2" class="carousel-item relative w-full h-auto">
                 <img src="Images/1.png" class="w-full h-52" />
-                <div class="absolute flex transform -translate-y-1/2 top-32 mt-12 left-40 gap-5">
-                    <a href="#slide1" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
-                    <a href="#slide3" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
+                <div class="absolute flex justify-between transform -translate-y-1/2 top-32 mt-12 left-40 gap-5">
+                    <a href="#slide1"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
+                    <a href="#slide3"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
                 </div>
-                <div class="w-[370px] h-36 bg-black rounded-md absolute p-4 space-y-2 top-48  mt-8 ml-2">
-                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
+                <div class="w-[335px] h-36 bg-black rounded-md absolute p-4 space-y-2 top-48  mt-8 ml-2">
+                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field2</h3>
+                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam<br>
                         turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
             </div>
-            <div id="slide3" class="carousel-item relative w-full">
+            <div id="slide3" class="carousel-item relative w-full h-auto">
                 <img src="Images/1.png" class="w-full h-52" />
-                <div class="absolute flex transform -translate-y-1/2 top-32 mt-12 left-40 gap-5">
-                    <a href="#slide2" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
-                    <a href="#slide4" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
+                <div class="absolute flex justify-between transform -translate-y-1/2 top-32 mt-12 left-40 gap-5">
+                    <a href="#slide2"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
+                    <a href="#slide4"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
                 </div>
-                <div class="w-[370px] h-36 bg-black rounded-md absolute p-4 space-y-2 top-48  mt-8 ml-2">
-                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
+                <div class="w-[335px] h-36 bg-black rounded-md absolute p-4 space-y-2 top-48  mt-8 ml-2">
+                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field3</h3>
+                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam<br>
                         turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full">
+            <div id="slide4" class="carousel-item relative w-full h-auto">
                 <img src="Images/1.png" class="w-full h-52" />
-                <div class="absolute flex transform -translate-y-1/2 top-32 mt-12 left-40 gap-5">
-                    <a href="#slide3" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
-                    <a href="#slide1" class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
+                <div class="absolute flex justify-between transform -translate-y-1/2 top-32 mt-12 left-40 gap-5">
+                    <a href="#slide3"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❮</a>
+                    <a href="#slide1"
+                        class="text-white bg-black rounded-full w-7 h-7 flex justify-center items-center">❯</a>
                 </div>
-                <div class="w-[370px] h-36 bg-black rounded-md absolute p-4 space-y-2 top-48  mt-8 ml-2">
-                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field</h3>
-                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
+                <div class=" w-[335px] h-36 bg-black rounded-md absolute p-4 space-y-2 top-48  mt-8 ml-2">
+                    <h3 class="font-extrabold text-[18px] text-white">Meet all the heroes from the field4</h3>
+                    <p class="font-medium text-[14px] text-white/60">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam<br>
                         turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
             </div>
         </div>
         <!-- Slider ends for medium and small devices -->
-         
+
     </header>
     <main>
 
